@@ -16,6 +16,11 @@ import Details from "./pages/details/details";
 import SearchResult from "./pages/searchResult/searchResult";
 import Error from "./pages/404/error.js";
 import Explore from "./pages/explore/explore";
+// import { configDotenv } from "dotenv";
+// import dotenv from "dotenv";
+require("dotenv").config();
+// dotenv.config({ path: "../.env" });
+
 function App() {
   const dispatch = useDispatch();
 
