@@ -31,6 +31,12 @@ const Banner = () => {
     }
   };
 
+  const handleSearchClick = () => {
+    if (query.length > 0) {
+      navigate(`/search/${query}`);
+    }
+  };
+
   return (
     <div className="banner">
       {!loading && (
@@ -52,7 +58,9 @@ const Banner = () => {
               onKeyUp={inputHandler}
               onChange={(e) => setQuery(e.target.value)}
             />
-            <button type="submit">Search</button>
+            <button type="submit" onClick={handleSearchClick}>
+              Search
+            </button>
           </div>
         </div>
       </ContentWrap>
