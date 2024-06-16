@@ -27,12 +27,12 @@
         align-items: center;
         justify-content: space-between;
     }
-    .logo {
-        cursor: pointer;
-        img {
-            height: 55px;
-        }
-    }
+    // .logo {
+    //     cursor: pointer;
+    //     img {
+    //         height: 55px;
+    //     }
+    // }
     .menuItems {
         list-style-type: none;
         display: none;
@@ -147,6 +147,24 @@
                 }
             }
         }
+    }
+}
+
+.logo img {
+    width: 250px; /* Default size */
+    height: auto;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 180px; /* Size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 180px; /* Size for mobile phones */
     }
 }
 

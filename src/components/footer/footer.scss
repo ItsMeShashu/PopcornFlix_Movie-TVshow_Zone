@@ -35,7 +35,7 @@
     }
     .infoText {
         font-size: 13px;
-        line-height: 20px;
+        line-height: 26px;
         opacity: 0.5;
         text-align: center;
         max-width: 800px;
@@ -45,6 +45,8 @@
             margin-bottom: 30px;
         }
     }
+
+    
     .socialIcons {
         display: flex;
         align-items: center;
@@ -64,6 +66,18 @@
                 box-shadow: 0 0 0.625em var(--orange);
                 color: var(--orange);
             }
+        }
+    }
+
+    .infoText3 {
+        font-size: 13px;
+        line-height: 26px;
+        text-align: center;
+        max-width: 800px;
+        margin: 20px 0 0 0;
+        @include md {
+            font-size: 15px;
+            margin: 30px 0 0 0;
         }
     }
 }
