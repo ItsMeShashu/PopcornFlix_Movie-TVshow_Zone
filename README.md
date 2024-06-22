@@ -68,3 +68,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot (2976)](https://github.com/ItsMeShashu/PopcornFlix_Movie-TVshow_Zone/assets/111221384/21ea5e21-f808-4feb-a948-e143ba2aa086)
+
